@@ -6,6 +6,7 @@
 // @author       Milled
 // @match        *://www.bilibili.com/bangumi/play/*
 // @icon         https://www.bilibili.com/favicon.ico
+// @license      MIT License
 // ==/UserScript==
 
 
