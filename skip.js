@@ -17,7 +17,8 @@ document.onkeyup = skip;
 
 function skip(event) {
     var e = event || window.event;
-    var video = document.querySelector(".bilibili-player-video video");
+    var video = document.querySelector("video");
+    if (!video) video = document.querySelector("bwp-video");
     switch (event.keyCode) {
         case 74:
             video.currentTime += J;
